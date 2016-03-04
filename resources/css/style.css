@@ -21,7 +21,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Arial', sans-serif;
+    font-family: 'lato','Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -75,11 +75,27 @@ header {
     color: #f0ebeb;
 }
 
-.cover-text-box span {
-    font-size: 75%;
+#header-oscar-winner {
+    color:rgba(253, 253, 132, 0.85);
+    font-size: 110%;
+    font-weight: 125%;
 }
 
-.cover-text-box a {
+#header-star-name {
+    font-size: 75%;
+    font-weight: 125%;
+}
+
+.cover-text-box a:link,
+.cover-text-box a:visited {
     font-size: 120%;
-    color: #38407f;
+    color: #636dba;
+}
+
+.cover-text-box a:hover,
+.cover-text-box a:active {
+    color: rgba(253, 253, 132, 0.85);
+    border-bottom: 3px solid rgba(253, 253, 132, 0.85);
+    -webkit-transition: border-bottom 0.3s;
+    transition: border-bottom 0.3s;
 }
