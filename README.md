@@ -11,7 +11,7 @@
 
 **Who is this project for**? Leonardo Dicaprio 
 
-**What programming language will you use**? HTML, CSS, JAVASCRIPT
+**What programming language will you use**? HTML, CSS, Javascript
 
 **What libraries, tools, or engines will you use**? Some JS and CSS libraries to create stunning effects
 
