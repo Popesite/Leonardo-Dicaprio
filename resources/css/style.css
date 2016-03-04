@@ -12,9 +12,12 @@ html,
 body {
     background-color: #fff;
     color: #555;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
-
-
 
 /* ----- HEADINGS ----- */
 h1,
@@ -22,4 +25,15 @@ h2,
 h3 {
     font-weight: 300;
     text-transform: uppercase;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+    background-image: url(img/cover_image/cover_image2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
 }
