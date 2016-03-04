@@ -37,6 +37,7 @@ a {
 
 section {
     padding: 80px 0;
+    height: 100vh
 }
 
 /* ----- HEADINGS ----- */
@@ -56,6 +57,36 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    margin-right: 10px;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid rgba(253, 253, 132, 0.85);
+}
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -64,19 +95,20 @@ header {
     background-image: -webkit-linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)), url("../img/cover_image/cover_image2.jpg");
     background-image: linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)),url("../img/cover_image/cover_image2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100vh;
     background-attachment: fixed;
 }
 
 .cover-text-box {
+    position: absolute;
     margin-left: 135px;
-    margin-top: 175px;
+    top: 175px;
     color: #f0ebeb;
 }
 
 #header-oscar-winner {
-    color:rgba(253, 253, 132, 0.85);
+    color: rgba(253, 253, 132, 0.85);
     font-size: 110%;
     font-weight: 125%;
 }
@@ -89,13 +121,37 @@ header {
 .cover-text-box a:link,
 .cover-text-box a:visited {
     font-size: 120%;
-    color: #636dba;
+    color: rgba(253, 253, 132, 0.85);
 }
 
 .cover-text-box a:hover,
 .cover-text-box a:active {
-    color: rgba(253, 253, 132, 0.85);
-    border-bottom: 3px solid rgba(253, 253, 132, 0.85);
+    border-bottom: 4px solid rgba(253, 253, 132, 0.85);
     -webkit-transition: border-bottom 0.3s;
     transition: border-bottom 0.3s;
+}
+
+
+/* ----------------------------------------------- */
+/* PORFOLIO */
+/* ----------------------------------------------- */
+.section-porfolio {
+    
+}
+
+
+/* ----------------------------------------------- */
+/* MOVIES */
+/* ----------------------------------------------- */
+.section-movies {
+    background-color: #c2c8d1;    
+}
+
+
+
+/* ----------------------------------------------- */
+/* NEWS */
+/* ----------------------------------------------- */
+.section-news {
+ 
 }
