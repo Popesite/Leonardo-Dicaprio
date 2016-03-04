@@ -1,3 +1,12 @@
+/*
+color1: #38407f; //rgba(56, 64, 127, 100)
+color2: #375f82; //rgba(55, 95, 130, 100)
+color3: #378e8b; //rgba(55, 142, 139, 100)
+color4: #37a08e; //rgba(55, 160, 142, 100)
+color5: #d5c2c5; //rgba(213, 194, 197, 100)
+*/
+
+
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
@@ -19,6 +28,17 @@ body {
     overflow-x: hidden;
 }
 
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+}
+
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -27,12 +47,22 @@ h3 {
     text-transform: uppercase;
 }
 
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
 
 header {
-    background-image: url("../img/cover_image/cover_image2.jpg");
+    background-image: -webkit-linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)), url("../img/cover_image/cover_image2.jpg");
+    background-image: linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)),url("../img/cover_image/cover_image2.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -43,4 +73,13 @@ header {
     margin-left: 135px;
     margin-top: 175px;
     color: #f0ebeb;
+}
+
+.cover-text-box span {
+    font-size: 75%;
+}
+
+.cover-text-box a {
+    font-size: 120%;
+    color: #38407f;
 }
