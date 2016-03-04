@@ -32,8 +32,15 @@ h3 {
 /* ----------------------------------------------- */
 
 header {
-    background-image: url(img/cover_image/cover_image2.jpg);
+    background-image: url("../img/cover_image/cover_image2.jpg");
     background-size: cover;
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+.cover-text-box {
+    margin-left: 135px;
+    margin-top: 175px;
+    color: #f0ebeb;
 }
