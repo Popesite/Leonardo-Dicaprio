@@ -36,7 +36,7 @@ a {
 }
 
 section {
-    padding: 80px 0;
+    padding: 83px 0;
     height: 100vh
 }
 
@@ -68,7 +68,19 @@ h1 {
 h2 {
     text-align: center;
     font-size: 230%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    -webkit-text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #525a96;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* */
@@ -83,6 +95,9 @@ h2 {
     margin-left: 30px;
 }
 
+.main-nav li:last-child {
+    margin-right: 20px;
+}
 .main-nav li a:link,
 .main-nav li a:visited {
     margin-right: 10px;
@@ -150,21 +165,35 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
-    background-image: -webkit-linear-gradient(rgba(190, 255, 253, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
-    background-image: linear-gradient(rgba(190, 255, 253, 0.19), rgba(1, 0, 33, 0.65)),
+    background-image: -webkit-linear-gradient(rgba(201, 255, 255, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
+    background-image: -webkit-linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
+    background-image: linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)),
 url(../img/porfolio-image2.jpg);
     background-size: auto;
     background-position: top;
     height: 100vh;
-    padding-top: 55px;
-    -webkit-transform: 0.7;
-    -ms-transform: 0.7;
-    transform: 70%;
+    padding-top: 60px;
 }
 
 .section-porfolio h2{
-    color: #38407f;
-    margin-bottom: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.section-porfolio h2:after {
+    margin-left: 0;
+    
+}
+
+.porfolio-text {
+    max-width: 45%;
+}
+
+.porfolio-star-name {
+    font-size: 140%;
+    color:#f5ff79;
 }
 
 .porfolio-photo {
@@ -173,17 +202,10 @@ url(../img/porfolio-image2.jpg);
     color:#38407f;
 }
 
-.section-porfolio img{
-    width: 72%;
-    height: auto;
-    /*border-radius: 50%;*/
-    box-shadow: 0 0 20px #6b6a6f;
-}
-
-.porfolio-text {
-    color: #38407f;
+.section-porfolio p {
+    color: #ffffe8;
     line-height: 140%;
-    background-color: #d0cefc;
+    font-family: serif;
 }
 /*
 <div class="pure-g">
