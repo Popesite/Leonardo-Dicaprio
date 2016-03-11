@@ -42,7 +42,7 @@ section {
 
 .pure-g {
     max-width: 1140px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 /* ----- HEADINGS ----- */
@@ -150,6 +150,11 @@ header {
     
 }
 
+.section-porfolio h2{
+    color: #38407f;
+    
+}
+
 
 /* ----------------------------------------------- */
 /* MOVIES */
@@ -157,6 +162,7 @@ header {
 .section-movies {
     background-color: #c2c8d1;    
 }
+
 
 
 
