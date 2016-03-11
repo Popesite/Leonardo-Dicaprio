@@ -64,7 +64,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 200%;
+    font-size: 220%;
     letter-spacing: 2px;
 }
 
@@ -152,8 +152,10 @@ header {
 
 .section-porfolio h2{
     color: #38407f;
-    
+    margin-bottom: 60px;
 }
+
+.section-porfolio 
 
 
 /* ----------------------------------------------- */
