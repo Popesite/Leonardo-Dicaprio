@@ -76,7 +76,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #525a96;
+    background-color: #fff;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -165,34 +165,36 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
-    background-image: -webkit-linear-gradient(rgba(201, 255, 255, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
     background-image: -webkit-linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
     background-image: linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)),
 url(../img/porfolio-image2.jpg);
     background-size: auto;
     background-position: top;
     height: 100vh;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .section-porfolio h2{
-    color: #fff;
+    color: rgba(253, 253, 132, 0.85);
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: left;
 }
 
 .section-porfolio h2:after {
-    margin-left: 0;
+    margin: 10px;
+    margin-left: 0px;
     
 }
 
 .porfolio-text {
-    max-width: 45%;
+    max-width: 44%;
+    padding: 13px;
+    background-color: #999;
 }
 
 .porfolio-star-name {
-    font-size: 140%;
+    font-size: 130%;
     color:#f5ff79;
 }
 
