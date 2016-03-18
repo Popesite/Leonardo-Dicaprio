@@ -165,8 +165,8 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
-    background-image: -webkit-linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)), url(../img/porfolio-image2.jpg);
-    background-image: linear-gradient(rgba(116, 121, 121, 0.19), rgba(1, 0, 33, 0.65)),
+    background-image: -webkit-linear-gradient(rgba(248, 248, 248, 0.19), rgba(0, 0, 0, 0.47)), url(../img/porfolio-image2.jpg);
+    background-image: linear-gradient(rgba(248, 248, 248, 0.19), rgba(0, 0, 0, 0.47)),
 url(../img/porfolio-image2.jpg);
     background-size: auto;
     background-position: top;
@@ -190,7 +190,7 @@ url(../img/porfolio-image2.jpg);
 .porfolio-text {
     max-width: 44%;
     padding: 13px;
-    background-color: #999;
+    background-color: #999; 
 }
 
 .porfolio-star-name {
