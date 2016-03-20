@@ -190,7 +190,8 @@ url(../img/porfolio-image2.jpg);
 .porfolio-text {
     max-width: 44%;
     padding: 13px;
-    background-color: #999; 
+    background-color: #999;
+    box-shadow: 10px 10px 10px rgba(136, 136, 136, 0.85);
 }
 
 .porfolio-star-name {
@@ -209,30 +210,15 @@ url(../img/porfolio-image2.jpg);
     line-height: 140%;
     font-family: serif;
 }
-/*
-<div class="pure-g">
-                <div class="pure-u-2-5">
-                    <figure class="porfolio-photo">
-                        <img src="resources/img/porfolio-image.jpg" alt="porfolio images for leonardo dicaprio">
-                    </figure>
-                    
-                </div>
-                <div class="pure-u-3-5 porfolio-text">
-                    <p>Leonardo DiCaprio is an award-winning actor and a three-time Academy Award® nominee.  DiCaprio’s 5th collaboration with Director Martin Scorsese “The Wolf of Wall Street” is available on Blu-ray and DVD now. DiCaprio starred as Jay Gatsby in “The Great Gatsby”, directed by Baz Luhrmann. 
-                    </p><br/>
-                    <p>  
-                       Prior to “The Great Gatsby”, he starred in “Django Unchained,” where he received a Golden Globe nomination for his work. As the title role in “J. Edgar”, under the direction of Clint Eastwood, he received Golden Globe, Critics’ Choice and Screen Actors Guild (SAG) Award® nominations for his work in the film. Additionally, he starred in Christopher Nolan’s blockbuster “Inception,” and the dramatic thriller “Shutter Island,” which marked his fourth collaboration with director Martin Scorsese.
-                    </p>
-                </div>
-    
-            </div>
-*/
+
 /* ----------------------------------------------- */
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
     background-color: #c2c8d1;    
 }
+
+
 
 
 
