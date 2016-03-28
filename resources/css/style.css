@@ -36,18 +36,23 @@ a {
 }
 
 section {
-    padding: 83px 0;
-    height: 100vh
+    padding: 80px 0;
+    height: 100vh;
 }
 
-.pure-g {
+.row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.box {
+    padding: 1px;
 }
 
 figure {
     margin:0;
 }
+
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -60,7 +65,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
+    font-size: 220%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -72,6 +77,7 @@ h2 {
     -webkit-text-decoration-line: underline;
     -moz-text-decoration-line: underline;
 }
+
 
 h2:after {
     display: block;
@@ -120,9 +126,11 @@ h2:after {
 /* HEADER */
 /* ----------------------------------------------- */
 
-header {
-    background-image: -webkit-linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)), url("../img/cover_image/cover_image2.jpg");
-    background-image: linear-gradient(rgba(56, 64, 127, 0.63), rgba(0, 0, 0, 0.7)),url("../img/cover_image/cover_image2.jpg");
+header { 
+   
+    background-image: -webkit-linear-gradient(rgba(10, 22, 124, 0.42), rgba(0, 0, 0, 0.27)), url("../img/cover_image/cover_image.jpg"); 
+   
+    background-image: linear-gradient(rgba(10, 22, 124, 0.42), rgba(0, 0, 0, 0.27)),url("../img/cover_image/cover_image.jpg");
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -131,8 +139,8 @@ header {
 
 .cover-text-box {
     position: absolute;
-    margin-left: 135px;
-    top: 200px;
+    margin-left: 130px;
+    top: 220px;
     color: #f0ebeb;
 }
 
@@ -165,13 +173,12 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
-    background-image: -webkit-linear-gradient(rgba(248, 248, 248, 0.19), rgba(0, 0, 0, 0.47)), url(../img/porfolio-image2.jpg);
-    background-image: linear-gradient(rgba(248, 248, 248, 0.19), rgba(0, 0, 0, 0.47)),
+    background-image: -webkit-linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)), url(../img/porfolio-image2.jpg);
+    background-image: linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)),
 url(../img/porfolio-image2.jpg);
-    background-size: auto;
+    background-size: cover;
     background-position: top;
-    height: 100vh;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .section-porfolio h2{
@@ -188,10 +195,10 @@ url(../img/porfolio-image2.jpg);
 }
 
 .porfolio-text {
-    max-width: 44%;
-    padding: 13px;
-    background-color: #999;
-    box-shadow: 10px 10px 10px rgba(136, 136, 136, 0.85);
+    width: 45%;
+    padding: 20px 20px;
+    background-color: rgba(45, 50, 90, 0.97);
+    box-shadow: 1px 1px 16px 2px rgba(136, 136, 136, 0.93);
 }
 
 .porfolio-star-name {
@@ -215,12 +222,34 @@ url(../img/porfolio-image2.jpg);
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
-    background-color: #c2c8d1;    
+    background-color: #253d5c;   
 }
 
+.section-movies h2 {
+    color: rgba(253, 253, 132, 0.85);
+}
 
+.section-movies h2:after {
+    margin-bottom: 3%;  
+}
 
+.movie-photo {
+    margin-bottom: 0px;
+}
+.movie-photo img {
+    width: 100%;
+    height: auto;
+}
 
+.movie-photo img:hover {
+    box-shadow: 0px 0px 16px 2px rgba(136, 136, 136, 0.93);
+    opacity: 2;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: opacity 1s -webkit-transform 1s;
+    transition: opacity 1s transform 1s;
+}
 
 
 /* ----------------------------------------------- */
