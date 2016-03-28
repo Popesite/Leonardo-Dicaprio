@@ -7,7 +7,7 @@
 **Looking for team members (yes/no)**: Maybe
 
 **Project description (3 sentences max)**: 
-    A porfolio website for Leonardo Dicaprio. This is would a fake responsive website that target mobile and web users. It should including major sections such as porfolio, Movies, and News.
+    A porfolio website for Leonardo Dicaprio. It should including major sections such as porfolio, Movies, and News.
 
 **Who is this project for**? Leonardo Dicaprio 
 
