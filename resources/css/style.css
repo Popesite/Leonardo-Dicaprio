@@ -259,9 +259,12 @@ url(../img/porfolio-image2.jpg);
 /* ----------------------------------------------- */
 .section-news {
     height: 100vh;
+    color: white;
+    background-color: azure;
 }
 
 .slide-content {
+    margin: 10px;
     background-color: darkslateblue;
     height: 500px;
 }
