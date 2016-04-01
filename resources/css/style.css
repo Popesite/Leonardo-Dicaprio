@@ -37,7 +37,6 @@ a {
 
 section {
     padding: 80px 0;
-    height: 100vh;
 }
 
 .row {
@@ -173,6 +172,7 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
+    height: 110vh;
     background-image: -webkit-linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)), url(../img/porfolio-image2.jpg);
     background-image: linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)),
 url(../img/porfolio-image2.jpg);
@@ -222,6 +222,7 @@ url(../img/porfolio-image2.jpg);
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
+    height: 110vh;
     background-color: #253d5c;   
 }
 
@@ -239,10 +240,11 @@ url(../img/porfolio-image2.jpg);
 .movie-photo img {
     width: 100%;
     height: auto;
+    
 }
 
 .movie-photo img:hover {
-    box-shadow: 0px 0px 16px 2px rgba(136, 136, 136, 0.93);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/*0px 0px 16px 4px rgba(0, 0, 0, 0.06)*/;
     opacity: 2;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
