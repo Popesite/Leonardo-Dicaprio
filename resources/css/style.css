@@ -246,9 +246,9 @@ url(../img/porfolio-image2.jpg);
 .movie-photo img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/*0px 0px 16px 4px rgba(0, 0, 0, 0.06)*/;
     opacity: 2;
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
     -webkit-transition: opacity 1s -webkit-transform 1s;
     transition: opacity 1s transform 1s;
 }
@@ -258,5 +258,20 @@ url(../img/porfolio-image2.jpg);
 /* NEWS */
 /* ----------------------------------------------- */
 .section-news {
-    
+    height: 100vh;
+}
+
+.slide-content {
+    background-color: darkslateblue;
+    height: 500px;
+}
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
 }
