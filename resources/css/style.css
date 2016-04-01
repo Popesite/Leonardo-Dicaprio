@@ -172,9 +172,8 @@ header {
 /* PORFOLIO */
 /* ----------------------------------------------- */
 .section-porfolio {
-    height: 110vh;
-    background-image: -webkit-linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)), url(../img/porfolio-image2.jpg);
-    background-image: linear-gradient(rgba(67, 53, 15, 0.14), rgba(13, 29, 100, 0.28)),
+    background-image: -webkit-linear-gradient(rgba(222, 216, 199, 0.14), rgba(13, 29, 100, 0.28)), url(../img/porfolio-image2.jpg);
+    background-image: linear-gradient(rgba(222, 216, 199, 0.14), rgba(13, 29, 100, 0.28)),
 url(../img/porfolio-image2.jpg);
     background-size: cover;
     background-position: top;
@@ -195,10 +194,27 @@ url(../img/porfolio-image2.jpg);
 }
 
 .porfolio-text {
+    margin-bottom: 20px;
     width: 45%;
     padding: 20px 20px;
-    background-color: rgba(45, 50, 90, 0.97);
+    background-color: rgb(28,34,87)/*rgba(45, 50, 90, 0.97)*/;
     box-shadow: 1px 1px 16px 2px rgba(136, 136, 136, 0.93);
+}
+
+.porfolio-link {
+    margin: 10px 10px 10px 0px;
+}
+
+.porfolio-link a {
+    color: rgba(253, 253, 132, 0.85);
+}
+
+.porfolio-link a:hover {
+    color: #f5ff79;
+    font-size: 130%;
+    font-weight: bolder;
+    -webkit-transition: font-size 0.7s;
+    transition: font-size 0.7s, font-weight 0.5s, color 0.7s;
 }
 
 .porfolio-star-name {
@@ -213,17 +229,16 @@ url(../img/porfolio-image2.jpg);
 }
 
 .section-porfolio p {
-    color: #ffffe8;
+    color: #fffff9;
     line-height: 140%;
-    font-family: serif;
+
 }
 
 /* ----------------------------------------------- */
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
-    height: 110vh;
-    background-color: #253d5c;   
+    background-color: rgb(28,34,87);   
 }
 
 .section-movies h2 {
@@ -253,20 +268,31 @@ url(../img/porfolio-image2.jpg);
     transition: opacity 1s transform 1s;
 }
 
-
+.bottom-row {
+    margin-bottom: 20px;
+}
 /* ----------------------------------------------- */
 /* NEWS */
 /* ----------------------------------------------- */
 .section-news {
-    height: 100vh;
-    color: white;
     background-color: azure;
+}
+
+.section-news h2 {
+    color: darkslateblue;
+}
+
+.section-news h2:after {
+    margin-bottom: 3%; 
+    background-color: darkslateblue;
 }
 
 .slide-content {
     margin: 10px;
+    margin-bottom: 20px;
     background-color: darkslateblue;
-    height: 500px;
+    height: 400px;
+    color: white;
 }
 
 
