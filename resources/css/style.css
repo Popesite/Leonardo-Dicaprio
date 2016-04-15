@@ -295,6 +295,16 @@ url(../img/porfolio-image2.jpg);
     color: white;
 }
 
+.slide-content img {
+   width: 100%;
+   color: white;
+}
+
+.news-title {
+    text-align: center;
+}
+
+
 
 /* ----------------------------------------------- */
 /* FOOTER */
