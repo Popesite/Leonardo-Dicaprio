@@ -238,7 +238,7 @@ url(../img/porfolio-image2.jpg);
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
-    background-color: rgb(8, 11, 33);   
+    background-image: url(../img/navy-blue-.jpg); 
 }
 
 .section-movies h2 {
@@ -291,19 +291,26 @@ url(../img/porfolio-image2.jpg);
 .slide-content {
     margin: 10px;
     margin-bottom: 20px;
-    background-color: darkslateblue;
+    background-color: #38407f;
     height: 400px;
     color: white;
 }
 
 .slide-content img {
    width: 100%;
-   color: white;
 }
 
+.news-description {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    text-align: center;
+    color: ghostwhite;
+}
+
+/*
 .news-title {
     text-align: center;
-}
+    
+}*/
 
 
 
