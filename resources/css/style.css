@@ -238,7 +238,7 @@ url(../img/porfolio-image2.jpg);
 /* MOVIES */
 /* ----------------------------------------------- */
 .section-movies {
-    background-color: rgb(28,34,87);   
+    background-color: rgb(8, 11, 33);   
 }
 
 .section-movies h2 {
@@ -275,7 +275,8 @@ url(../img/porfolio-image2.jpg);
 /* NEWS */
 /* ----------------------------------------------- */
 .section-news {
-    background-color: azure;
+    background-image: url(../img/news_pattern.png);
+    
 }
 
 .section-news h2 {
