@@ -282,6 +282,7 @@ url(../img/porfolio-image2.jpg);
 
 .section-news h2 {
     color: darkslateblue;
+    font-weight: 120%;
 }
 
 .section-news h2:after {
@@ -317,9 +318,9 @@ url(../img/porfolio-image2.jpg);
 
 .slide-content a:hover {
     border-radius: 20px;
-    font-weight: 120%;
-    color: #f1c40f;
-    border-color: #f1c40f;
+    
+    color: #FFFF00;
+    border-color: #FFFF00;
     -webkit-transition: border-radius 0.7s;
     transition: border-radius 0.7s;
 }
