@@ -297,7 +297,13 @@ url(../img/porfolio-image2.jpg);
 }
 
 .slide-content img {
-   width: 100%;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.slide-content a {
+    font-size: 120%;
+    color: #fff;
 }
 
 .news-description {
