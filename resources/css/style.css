@@ -247,13 +247,20 @@ url(../img/porfolio-image2.jpg);
     text-align: center;
     color: darkslateblue;
 }
+
+.movie-content {
+    box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.27);
+    padding:0px;
+}
+
 .movie-photo {
     margin-bottom: 0px;
 }
+
 .movie-photo img {
     width: 100%;
     height: auto;
-    
+
 }
 
 .movie-info{
@@ -264,14 +271,9 @@ url(../img/porfolio-image2.jpg);
     display: block;
 }
 
-.movie-info:last-child{
-    margin-right: 0px;
-}
-
 .movie-info:hover {
-    background-image: -webkit-linear-gradient(rgb(255,255,255), rgb(0,0,0));
-    background-image: -webkit-linear-gradient(rgb(255,255,255), rgba(253, 253, 132, 0.65));
-    background-image: linear-gradient(rgb(255,255,255), rgba(253, 253, 132, 0.65));
+    background-image: -webkit-linear-gradient(rgb(255,255,255), rgba(10, 22, 124, 0.42));
+    background-image: linear-gradient(rgb(255,255,255), rgba(10, 22, 124, 0.42));
 }
 
 .row {
