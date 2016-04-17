@@ -234,14 +234,19 @@ url(../img/porfolio-image2.jpg);
     background-color: rgba(179, 181, 198, 0.27); 
 }
 
-.section-movies h2 {
-    color: rgba(253, 253, 132, 0.85);
+.section-movies h2{
+    color: darkslateblue;
 }
 
 .section-movies h2:after {
-    margin-bottom: 3%;  
-}
+    display: none;
+} 
 
+.movie-heading h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: darkslateblue;
+}
 .movie-photo {
     margin-bottom: 0px;
 }
