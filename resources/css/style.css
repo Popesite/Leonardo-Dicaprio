@@ -248,9 +248,19 @@ url(../img/porfolio-image2.jpg);
     color: darkslateblue;
 }
 
-.movie-content {
-    box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.27);
-    padding:0px;
+.movie-title {
+    font-size: 130%;
+    font-weight: 400;
+    color: #252c46;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.movie-title i,
+.movie-text {
+    color: darkslateblue;
+    margin: 0px 6px;
+    font-size: 120%;
 }
 
 .movie-photo {
@@ -263,17 +273,25 @@ url(../img/porfolio-image2.jpg);
 
 }
 
+.movie-text {
+    padding: 30px;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 300;
+}
+
+#gatsby-highlight {
+    font-weight: 400;
+}
+
 .movie-info{
     margin-left: 0px;
     height: 424px;
-    background-color: white;
+  /*background-color: white;*/
+    background-image: url(../img/news_pattern.png);
     color: white;
     display: block;
-}
-
-.movie-info:hover {
-    background-image: -webkit-linear-gradient(rgb(255,255,255), rgba(10, 22, 124, 0.42));
-    background-image: linear-gradient(rgb(255,255,255), rgba(10, 22, 124, 0.42));
+    box-shadow: 2px 2px 2px 0px rgba(147, 156, 167, 0.65);
 }
 
 .row {
