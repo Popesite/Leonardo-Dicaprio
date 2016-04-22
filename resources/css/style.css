@@ -280,8 +280,14 @@ url(../img/porfolio-image2.jpg);
     font-weight: 300;
 }
 
+#belfort-highlight {
+    font-weight: 400;
+    color: #FFB300;
+}
+
 #gatsby-highlight {
     font-weight: 400;
+    color: #FFB300;
 }
 
 .movie-info{
