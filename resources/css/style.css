@@ -155,10 +155,10 @@ header {
 
 .cover-text-box a:hover,
 .cover-text-box a:active {
-    border-radius: 25px;
     border: 2px solid rgba(253, 253, 132, 0.85);
- /*   -webkit-transition: border-radius 1.3s;
-    transition: border-radius 0.3s, border 1.3s;*/
+    border-radius: 25px;
+    -webkit-transition: border-radius 1.3s;
+    transition: border-radius 1.3s;
 }
 
 
