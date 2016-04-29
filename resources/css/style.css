@@ -264,6 +264,10 @@ url(../img/porfolio-image2.jpg);
     font-size: 120%;
 }
 
+.movie-title i {
+    margin-right: 8px;
+}
+
 .movie-photo {
     margin-bottom: 0px;
 }
