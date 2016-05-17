@@ -16,3 +16,4 @@
 **What libraries, tools, or engines will you use**? Some JS and CSS libraries to create stunning effects
 
 **What learning resources have you started to use**? I will look into it.
+(Unfinished club project)
